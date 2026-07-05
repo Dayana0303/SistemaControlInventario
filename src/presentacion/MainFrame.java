@@ -26,6 +26,13 @@ public class MainFrame extends javax.swing.JFrame {
         jToolBar1.setBackground(new java.awt.Color(173, 216, 230));
         jTabbedPane1.setBackground(new java.awt.Color(204, 229, 255));
         negocio = new ProductoNegocio();
+        
+        btnNuevo.setToolTipText("Ir al registro de productos");
+        btnGuardar.setToolTipText("Guardar un producto");
+        btnEditar.setToolTipText("Editar un producto");
+        btnEliminar.setToolTipText("Eliminar un producto");
+        btnOrdenar.setToolTipText("Ordenar productos");
+        btnExportar.setToolTipText("Exportar inventario");
 
         productoPanel = new ProductoPanel(negocio);
         listaProductosPanel = new ListaProductosPanel(negocio);
