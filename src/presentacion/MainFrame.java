@@ -33,6 +33,14 @@ public class MainFrame extends javax.swing.JFrame {
         btnEliminar.setToolTipText("Eliminar un producto");
         btnOrdenar.setToolTipText("Ordenar productos");
         btnExportar.setToolTipText("Exportar inventario");
+        
+        jMenuItem1.setToolTipText("Crear un nuevo producto");
+        jMenuItem2.setToolTipText("Exportar el inventario");
+        jMenuItem3.setToolTipText("Cerrar la aplicación");
+        jMenuItem4.setToolTipText("Ordenar los productos");
+        jMenuItem5.setToolTipText("Ver las estadísticas");
+        jMenuItem6.setToolTipText("Ver el historial");
+        jMenuItem7.setToolTipText("Información del sistema");
 
         productoPanel = new ProductoPanel(negocio);
         listaProductosPanel = new ListaProductosPanel(negocio);
