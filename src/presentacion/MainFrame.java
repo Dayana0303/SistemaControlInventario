@@ -21,7 +21,26 @@ public class MainFrame extends javax.swing.JFrame {
      */
     public MainFrame() {
         initComponents();
+        
+        getContentPane().setBackground(new java.awt.Color(240, 248, 255));
+        jToolBar1.setBackground(new java.awt.Color(173, 216, 230));
+        jTabbedPane1.setBackground(new java.awt.Color(204, 229, 255));
         negocio = new ProductoNegocio();
+        
+        btnNuevo.setToolTipText("Ir al registro de productos");
+        btnGuardar.setToolTipText("Guardar un producto");
+        btnEditar.setToolTipText("Editar un producto");
+        btnEliminar.setToolTipText("Eliminar un producto");
+        btnOrdenar.setToolTipText("Ordenar productos");
+        btnExportar.setToolTipText("Exportar inventario");
+        
+        jMenuItem1.setToolTipText("Crear un nuevo producto");
+        jMenuItem2.setToolTipText("Exportar el inventario");
+        jMenuItem3.setToolTipText("Cerrar la aplicación");
+        jMenuItem4.setToolTipText("Ordenar los productos");
+        jMenuItem5.setToolTipText("Ver las estadísticas");
+        jMenuItem6.setToolTipText("Ver el historial");
+        jMenuItem7.setToolTipText("Información del sistema");
 
         productoPanel = new ProductoPanel(negocio);
         listaProductosPanel = new ListaProductosPanel(negocio);
@@ -238,9 +257,9 @@ public class MainFrame extends javax.swing.JFrame {
         javax.swing.JOptionPane.showMessageDialog(
             this,
                 "Sistema de Control de Inventario\n\n"
-                + "Desarrollado por: Dayana Murillo\n"
+                + "Estudiante: Dayana Murillo\n"
                 + "Programación IV\n"
-                + "Java Swing\n"
+                + "Proyecto Java Swing\n"
                 + "Versión 1.0",
            "Acerca del sistema",
       javax.swing.JOptionPane.INFORMATION_MESSAGE);
