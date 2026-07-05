@@ -249,9 +249,9 @@ public class MainFrame extends javax.swing.JFrame {
         javax.swing.JOptionPane.showMessageDialog(
             this,
                 "Sistema de Control de Inventario\n\n"
-                + "Desarrollado por: Dayana Murillo\n"
+                + "Estudiante: Dayana Murillo\n"
                 + "Programación IV\n"
-                + "Java Swing\n"
+                + "Proyecto Java Swing\n"
                 + "Versión 1.0",
            "Acerca del sistema",
       javax.swing.JOptionPane.INFORMATION_MESSAGE);
