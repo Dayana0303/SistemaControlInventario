@@ -21,6 +21,10 @@ public class MainFrame extends javax.swing.JFrame {
      */
     public MainFrame() {
         initComponents();
+        
+        getContentPane().setBackground(new java.awt.Color(240, 248, 255));
+        jToolBar1.setBackground(new java.awt.Color(173, 216, 230));
+        jTabbedPane1.setBackground(new java.awt.Color(204, 229, 255));
         negocio = new ProductoNegocio();
 
         productoPanel = new ProductoPanel(negocio);
