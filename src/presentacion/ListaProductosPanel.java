@@ -80,7 +80,7 @@ public class ListaProductosPanel extends javax.swing.JPanel {
 
         lblBuscar.setText("Buscar");
 
-        btnBuscar.setText("Buscar");
+        btnBuscar.setText("Buscar producto");
         btnBuscar.addActionListener(this::btnBuscarActionPerformed);
 
         scrollProductos.addComponentListener(new java.awt.event.ComponentAdapter() {
